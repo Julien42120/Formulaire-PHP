@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://www.md5.fr/assets/img/background.md5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 3%;
+    text-align: center;
+    
+}
+
+
+.container h1  {
+    color: hsl(324, 70%, 45%);
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: wheelHueColor 10s infinite;
+    text-decoration: underline ;
+
+}
+
+@keyframes wheelHueColor {
+    from, to { color: hsl(324, 100%, 45%); }
+    10%      { color: rgb(211, 23, 23); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(256, 100%, 31%); }
+    70%      { color: hsl(249, 98%, 22%); }
+    80%      { color: hsl(0, 0%, 0%); }
+    90%      { color: hsl(0, 0%, 95%); }
+}
+
+.row {
+    margin-top: 3%;
+}
+
+.premier {
+    color: white;
+}
+
+.deuxieme {
+    color: white;
+}
+
+.troisieme{
+    color: white;
+}
+
+.quatrieme{
+    color: white;
+}
+
+.boutonenvoi {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+    
+    
